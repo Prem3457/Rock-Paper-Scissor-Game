@@ -66,6 +66,6 @@ function changeChoice(selectedChoice,chance){
     const icons=selectedChoice.querySelector('img');
     selectedChoice.classList.add('btn-'+chance);
     console.log(chance);
-    icons.src='images/icon-'+chance+'.svg';
+    icons.src='Images/icon-'+chance+'.svg';
     icons.alt=chance;
 }
