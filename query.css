@@ -1,0 +1,38 @@
+@media screen and (max-width:500px) and (min-width:270px){
+    .score{
+        transform: scale(0.75);
+    }
+    .winner-desktop{
+        margin-top:100px;
+    }
+    .winner-desktop h2{
+        font-size:12px;
+    }
+    .winner-desktop button{
+        width:80px;
+        font-size:12px;
+    }
+    .user-choice h3{
+        margin-bottom:25px !important;
+    }
+    .user-choice{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .btn-rules{
+        left:45%;
+        bottom:5%;
+    }
+    .btn-circle-big{
+        border: none;
+        border-radius: 50%;
+        box-shadow: inset 0 -5px rgba(0,0,0,0.15);
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+    }
+    .btn-circle-big img{
+        width:50px;
+        height: 50px;
+    }
+}
